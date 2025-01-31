@@ -32,7 +32,7 @@ def get_progress_bar2(percentage):
     umm = math.floor(percentage)
     
     progress_messages = [
-        "  ✦ sᴘᴏᴛɪғʏ ᴘʀᴏɢʀᴇss ✦ ",
+        "  ✦ ᴛ-ꜱᴇʀɪᴇꜱ ᴘʀᴏɢʀᴇss ✦ ",
         "  🎶 ᴛʜɪs sᴏɴɢ ɪs ᴠᴇʀʏ ʙᴇᴀᴜᴛɪғᴜʟ 🎶 ",
         "  💿 ᴍᴇʟᴏᴅʏ ғʟᴏᴡs ᴛʜʀᴏᴜɢʜ 🎙️ ",
         "  🎧 ᴘʟᴀʏɪɴɢ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ 🎥 ",
@@ -40,7 +40,7 @@ def get_progress_bar2(percentage):
         "  ⚕️ ᴇɴᴊᴏʏ ᴛʜᴇ sᴏᴜɴᴅs ⚕️ ",
         "  ✩ ʏᴏᴜʀ ᴍᴜsɪᴄ sᴇssɪᴏɴ ✩ ",
         "  ❤️ ғᴇᴇʟɪɴɢ ᴛʜᴇ ʙᴇᴀᴛs ❤️ ",
-        "  🎧 ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ sᴘᴏᴛɪғʏ ᴍᴜsɪᴄ 🎧 ",
+        "  🎧 ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ᴛ-ꜱᴇʀɪᴇꜱ ᴍᴜsɪᴄ 🎧 ",
         "  ✩ ᴀʟᴍᴏsᴛ ᴅᴏɴᴇ ᴘʟᴀʏɪɴɢ ✩ ",
     ]
     
@@ -231,7 +231,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
             ),
         ],
     ]
-    return buttons
+    return buttons3
 
 
 ## Slider Query Markup
