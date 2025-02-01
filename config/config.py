@@ -78,14 +78,14 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7009601543").split())
+    map(int, getenv("OWNER_ID", "7759422732").split())
 )  # Input type must be interger
 
 
 # make your bots privacy from telegra.ph and put your url here
 
 PRIVACY_LINK = getenv(
-    "PRIVACY_LINK", "https://envs.sh/SL4.jpg"
+    "PRIVACY_LINK", "https://envs.sh/fS5.jpg"
 )
 
 
@@ -112,17 +112,17 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/HEROKUBIN_01"
+    "SUPPORT_CHANNEL", "https://t.me/TSERIESUPDATESS"
 )  # Example:- https://t.me/HEROKUBIN_01
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/PBX_CHAT"
+    "SUPPORT_GROUP", "https://t.me/TSERIESSUPPORTCHAT"
 )  # Example:- https://t.me/TG_FRIENDSS
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/PBX_CHAT"
+    "SUPPORT_GROUP", "https://t.me/TSERIESSUPPORTCHAT"
 )  # Example:- https://t.me/TG_FRIENDSS
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", True)
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -178,7 +178,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 # If you want your bot to setup the commands automatically in the bot's menu set it to true.
 # Refer to https://i.postimg.cc/Bbg3LQTG/image.png
-SET_CMDS = getenv("SET_CMDS", "False")
+SET_CMDS = getenv("SET_CMDS", "True")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @VIPStringBot
@@ -207,77 +207,77 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://envs.sh/WZE.jpg",
+    "https://envs.sh/vPF.jpg",
 )
 
 UC_IMG_URL = getenv(
     "UC_IMG_URL",
-    "https://envs.sh/pMb.jpg",
+    "https://envs.sh/vPF.jpg",
 )
 
 BOT_IMG_URL = getenv(
     "BOT_IMG_URL",
-    "https://envs.sh/SY-.jpg",
+    "https://envs.sh/vP2.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://envs.sh/vPt.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://envs.sh/AXd.jpg",
+    "https://envs.sh/vPt.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://telegra.ph/file/de1db74efac1770b1e8e9.jpg",
+    "https://envs.sh/vPt.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg",
+    "https://envs.sh/vPt.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://telegra.ph/file/8234d704952738ebcda7f.jpg",
+    "https://envs.sh/vPt.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://telegra.ph/file/8d02ff3bde400e465219a.jpg",
+    "https://envs.sh/vPt.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://telegra.ph/file/e24f4a5f695ec5576a8f3.jpg",
+    "https://envs.sh/vPt.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://telegra.ph/file/7645d1e04021323c21db9.jpg",
+    "https://envs.sh/vPt.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://telegra.ph/file/76d29aa31c40a7f026d7e.jpg",
+    "https://envs.sh/vPt.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://telegra.ph/file/b7758d4e1bc32aa9fb6ec.jpg",
+    "https://envs.sh/vPt.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://telegra.ph/file/60ed85638e00df10985db.jpg",
+    "https://envs.sh/vPt.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://telegra.ph/file/f4edfbd83ec3150284aae.jpg",
+    "https://envs.sh/vPt.jpg",
 )
 
 
